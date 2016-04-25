@@ -1,0 +1,33 @@
+//
+//  PayDemoPrefixHeader.pch
+//  PayDemo
+//
+//  Created by 李金柱 on 16/4/21.
+//  Copyright © 2016年 likeme. All rights reserved.
+//
+
+#ifndef PayDemoPrefixHeader_pch
+#define PayDemoPrefixHeader_pch
+
+
+#import <Availability.h>
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Define.h"
+
+#endif
+
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...) {}
+#endif
+
+
+
+#endif /* PayDemoPrefixHeader_pch */
