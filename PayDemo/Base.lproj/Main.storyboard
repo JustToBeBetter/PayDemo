@@ -25,10 +25,24 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPh-Vf-iwa">
-                                <rect key="frame" x="11" y="238" width="344" height="100"/>
+                                <rect key="frame" x="11" y="200" width="344" height="100"/>
                                 <state key="normal" title="Button" image="wxpaylogo"/>
                                 <connections>
                                     <action selector="wxpayEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dC9-PY-C74"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nol-X2-ukE">
+                                <rect key="frame" x="11" y="323" width="344" height="100"/>
+                                <state key="normal" title="Button" image="unionpay"/>
+                                <connections>
+                                    <action selector="unionPayEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3KL-ed-1t8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sW-be-7Bk">
+                                <rect key="frame" x="37" y="435" width="318" height="108"/>
+                                <state key="normal" title="Button" image="ApplePayBTN_64pt__whiteLine_textLogo_"/>
+                                <connections>
+                                    <action selector="applePayEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QxA-WU-ZRj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -42,7 +56,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ApplePayBTN_64pt__whiteLine_textLogo_" width="194" height="64"/>
         <image name="alipaylogo" width="100" height="100"/>
+        <image name="unionpay" width="200" height="124"/>
         <image name="wxpaylogo" width="100" height="88"/>
     </resources>
 </document>

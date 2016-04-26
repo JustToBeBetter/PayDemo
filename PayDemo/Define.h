@@ -12,8 +12,10 @@
 #import <AlipaySDK/AlipaySDK.h>
 #import "WXApi.h"
 #import "AFNetworking.h"
+#import "UPPaymentControl.h"
 
-#define WXAppId             @"wxa7566745dc393223"  //微信app ID
+
+#define WXAppId             @""  //微信app ID
 #define WXSecret            @""  //微信appSecret
 
 #define ALiAppId         @""    //支付宝app ID
