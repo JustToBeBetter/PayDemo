@@ -327,6 +327,7 @@
         [_alertView dismissWithClickedButtonIndex:0 animated:NO];
         _alertView = nil;
     }
+   
 }
 
 #pragma

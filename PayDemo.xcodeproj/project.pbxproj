@@ -48,10 +48,10 @@
 		0A77EB501CC8D4F400586BC3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A77EB4F1CC8D4F400586BC3 /* libsqlite3.tbd */; };
 		0ADB645D1CCF50430071FA04 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADB645C1CCF50430071FA04 /* LocalAuthentication.framework */; };
 		0ADB64641CCF55040071FA04 /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADB64631CCF55040071FA04 /* libPaymentControl.a */; };
-		0ADB64671CCF566D0071FA04 /* public_product.key in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB64651CCF566D0071FA04 /* public_product.key */; };
-		0ADB64681CCF566D0071FA04 /* public_test.key in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB64661CCF566D0071FA04 /* public_test.key */; };
 		0ADB646B1CCF57440071FA04 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB646A1CCF57440071FA04 /* RSA.m */; };
 		CE7AD74080628FE8D4C1F1DB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8C95C10C4EC38B0EDA9D21 /* libPods.a */; };
+		E80E7E8C1DD1CBF600943E57 /* public_product.key in Resources */ = {isa = PBXBuildFile; fileRef = E80E7E8A1DD1CBF600943E57 /* public_product.key */; };
+		E80E7E8D1DD1CBF600943E57 /* public_test.key in Resources */ = {isa = PBXBuildFile; fileRef = E80E7E8B1DD1CBF600943E57 /* public_test.key */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,13 +216,13 @@
 		0ADB645C1CCF50430071FA04 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		0ADB64611CCF55040071FA04 /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
 		0ADB64631CCF55040071FA04 /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
-		0ADB64651CCF566D0071FA04 /* public_product.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = public_product.key; sourceTree = "<group>"; };
-		0ADB64661CCF566D0071FA04 /* public_test.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = public_test.key; sourceTree = "<group>"; };
 		0ADB64691CCF57440071FA04 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
 		0ADB646A1CCF57440071FA04 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 		251D368264F8F1BAAD63F0F4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		701D9FA5A2AD26DC60E9B698 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9E8C95C10C4EC38B0EDA9D21 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80E7E8A1DD1CBF600943E57 /* public_product.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = public_product.key; sourceTree = "<group>"; };
+		E80E7E8B1DD1CBF600943E57 /* public_test.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = public_test.key; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,8 +302,8 @@
 				0A77E9A41CC8BA1800586BC3 /* ViewController.m */,
 				0ADB64691CCF57440071FA04 /* RSA.h */,
 				0ADB646A1CCF57440071FA04 /* RSA.m */,
-				0ADB64651CCF566D0071FA04 /* public_product.key */,
-				0ADB64661CCF566D0071FA04 /* public_test.key */,
+				E80E7E8A1DD1CBF600943E57 /* public_product.key */,
+				E80E7E8B1DD1CBF600943E57 /* public_test.key */,
 				0A77E9A61CC8BA1800586BC3 /* Main.storyboard */,
 				0A77E9A91CC8BA1800586BC3 /* Assets.xcassets */,
 				0A77E9AB1CC8BA1800586BC3 /* LaunchScreen.storyboard */,
@@ -705,8 +705,8 @@
 				0A77E9AD1CC8BA1800586BC3 /* LaunchScreen.storyboard in Resources */,
 				0A77E9AA1CC8BA1800586BC3 /* Assets.xcassets in Resources */,
 				0A77E9DA1CC8BAFC00586BC3 /* read_me.txt in Resources */,
-				0ADB64681CCF566D0071FA04 /* public_test.key in Resources */,
-				0ADB64671CCF566D0071FA04 /* public_product.key in Resources */,
+				E80E7E8D1DD1CBF600943E57 /* public_test.key in Resources */,
+				E80E7E8C1DD1CBF600943E57 /* public_product.key in Resources */,
 				0A77E9A81CC8BA1800586BC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
